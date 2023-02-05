@@ -1,0 +1,117 @@
+.header{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  z-index: 100;
+
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  
+}
+.hamb-menu{
+
+  margin-left: 20px;
+}
+
+.yt-logo{
+
+  margin-left: 20px;
+
+}
+
+.middle-section{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  margin-left: 18px;
+  margin-right: 18px;
+  flex: 1;
+  max-width: 600px;
+}
+
+.search-bar
+    {
+    width: 0;
+    flex: 1;
+    height: 30px;
+    border-style: solid;
+  
+    border-color: rgb(206, 206, 206);
+    border-width: 2px;
+  
+    font-size: 1.2rem;}
+
+.search-bar::placeholder
+  {
+    font-family: roboto;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    height: 30px;}
+
+.search-icon{
+  height: 30px;
+  width: 50px;
+  border-style: solid;
+  background-color: rgb(209, 209, 209);
+  border-color: rgb(211, 211, 211);
+ 
+  margin-right: 8px;
+  margin-left: -6px;
+
+}
+
+
+.voice{
+  
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 20px;
+  
+  
+}
+
+
+
+.right-section{
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+  width: 220px;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.upload{
+
+  height: 30px;
+  width: 35px;
+}
+
+.youtube-apps{
+  height: 30px;
+  width: 35px;
+}
+.notifications{
+  height: 30px;
+  width: 35px;
+}
+.user{
+  height: 30px;
+  width: 35px;
+  border-radius: 50px;
+}
